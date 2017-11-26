@@ -52,14 +52,6 @@ public class Main {
         commandHandler.commands.put("ping", new cmdPing());
         commandHandler.commands.put("say", new cmdSay());
         commandHandler.commands.put("clear", new cmdClear());
-        commandHandler.commands.put("play", new cmdPlay());
-        commandHandler.commands.put("p", new cmdPlay());
-        commandHandler.commands.put("skip", new cmdSkip());
-        commandHandler.commands.put("s", new cmdSkip());
-        commandHandler.commands.put("np", new cmdNowPlaying());
-        commandHandler.commands.put("now", new cmdNowPlaying());
-        commandHandler.commands.put("nowplaying", new cmdNowPlaying());
-        commandHandler.commands.put("current", new cmdNowPlaying());
 
     }
 
