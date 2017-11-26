@@ -1,14 +1,12 @@
 package commands;
 
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
-
-import java.util.Random;
+import util.QUOTES;
+import util.STATIC;
 
 public class cmdSup implements Command {
 
-    static Random rnd = new Random();
-    static String[] answers = {"Beep Boop Boop Beep.","OK.","Error 404 'Sup' not found.","Double shift today, You?","Make it rain! :money_with_wings::money_with_wings: ",
-            "You are boring..","The Bot goes skrrraaa!","I love you. :kissing_heart: "};
+
 
     @Override
     public boolean called(String[] args, MessageReceivedEvent event) {
@@ -17,7 +15,7 @@ public class cmdSup implements Command {
 
     @Override
     public void action(String[] args, MessageReceivedEvent event) {
-        event.getChannel().sendMessage(answers[rnd.nextInt(8)]).queue();
+        event.getChannel().sendMessage(QUOTES.ANSWERS[STATIC.rnd.nextInt(QUOTES.ANSWERS.length)]).queue();
     }
 
     @Override
