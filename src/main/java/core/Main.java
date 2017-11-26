@@ -52,6 +52,11 @@ public class Main {
         commandHandler.commands.put("ping", new cmdPing());
         commandHandler.commands.put("say", new cmdSay());
         commandHandler.commands.put("clear", new cmdClear());
+        commandHandler.commands.put("vote", new cmdVote());
+        commandHandler.commands.put("cat", new cmdCat());
+        commandHandler.commands.put("roll", new cmdRoll());
+        commandHandler.commands.put("sup", new cmdSup());
+        commandHandler.commands.put("whats up", new cmdSup());
 
     }
 

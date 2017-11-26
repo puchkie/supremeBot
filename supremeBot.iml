@@ -50,5 +50,6 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:slf4j-log4j12:1.5.6" level="project" />
     <orderEntry type="library" name="Maven: com.jagrosh:JDA-Utilities:1.7" level="project" />
     <orderEntry type="library" name="Maven: org.json:json:20160810" level="project" />
+    <orderEntry type="library" name="CardinalOCSL_1.5" level="project" />
   </component>
 </module>
