@@ -56,7 +56,7 @@ public class Main {
         commandHandler.commands.put("cat", new cmdCat());
         commandHandler.commands.put("roll", new cmdRoll());
         commandHandler.commands.put("sup", new cmdSup());
-        commandHandler.commands.put("init", new cmdInit());
+        commandHandler.commands.put("whats up", new cmdSup());
 
     }
 
