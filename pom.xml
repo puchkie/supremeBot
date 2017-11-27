@@ -19,6 +19,10 @@
             <name>JCenter</name>
             <url>https://jcenter.bintray.com</url>
         </repository>
+        <repository> <!-- This repo fixes issues with transitive dependencies -->
+            <id>jcenter</id>
+            <url>http://jcenter.bintray.com</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -72,6 +76,7 @@
             <artifactId>json</artifactId>
             <version>20160810</version>
         </dependency>
+
         <!--
             NEEDED FOR ANOTHER COMMAND NOT IMPLEMENTED YET
         <dependency>

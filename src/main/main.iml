@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="supremeBot" level="project" />
+    <orderEntry type="library" name="Maven: net.dv8tion:JDA:3.3.1_307" level="project" />
   </component>
 </module>

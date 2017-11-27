@@ -22,28 +22,34 @@ public class cmdInit implements Command {
     @Override
     public void action(String[] args, MessageReceivedEvent event) {
 
+
+        //event.getMember().getVoiceState().getGuild().
+
         if (event.getGuild().getVoiceChannelById(0).getMembers().isEmpty()) { // not working
 
-            for (Guild g : event.getJDA().getGuilds()) {
-                g.getTextChannels().get(0).sendMessage(
-                        "This place is too quiet.."
-                ).queue();
-            }
+            System.out.println("no one is in the vcs");}else {
+            System.out.println("this does not work.");
 
-        } else {
-
-        TimerTask task = new TimerTask() {
-            @Override
-            public void run() {
-                for (Guild g : event.getJDA().getGuilds()) {
-                    g.getTextChannels().get(0).sendMessage(
-                            QUOTES.AFK_NOTES[STATIC.rnd.nextInt(QUOTES.AFK_NOTES.length)]
-                    ).queue();
-                }
-            }
-        };
-
-        timer.scheduleAtFixedRate(task, time, time);
+//            for (Guild g : event.getJDA().getGuilds()) {
+//                g.getTextChannels().get(0).sendMessage(
+//                        "This place is too quiet.."
+//                ).queue();
+//            }
+//
+//        } else {
+//
+//        TimerTask task = new TimerTask() {
+//            @Override
+//            public void run() {
+//                for (Guild g : event.getJDA().getGuilds()) {
+//                    g.getTextChannels().get(0).sendMessage(
+//                            QUOTES.AFK_NOTES[STATIC.rnd.nextInt(QUOTES.AFK_NOTES.length)]
+//                    ).queue();
+//                }
+//            }
+//        };
+//
+//        timer.scheduleAtFixedRate(task, time, time);
     }
 
 }
