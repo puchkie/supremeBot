@@ -7,18 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58497eee-bedb-4556-a55b-c62c182b5927" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/commands/cmdInit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/util/QUOTES.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/commands/cmdAvatar.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/commands/cmdSup.class" afterPath="$PROJECT_DIR$/target/classes/commands/cmdSup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/core/Main.class" afterPath="$PROJECT_DIR$/target/classes/core/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/listeners/readyListener.class" afterPath="$PROJECT_DIR$/target/classes/listeners/readyListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/STATIC.class" afterPath="$PROJECT_DIR$/target/classes/util/STATIC.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/QUOTES.class" afterPath="$PROJECT_DIR$/target/classes/util/QUOTES.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/commands/cmdSup.java" afterPath="$PROJECT_DIR$/src/main/java/commands/cmdSup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/Main.java" afterPath="$PROJECT_DIR$/src/main/java/core/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/listeners/readyListener.java" afterPath="$PROJECT_DIR$/src/main/java/listeners/readyListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/STATIC.java" afterPath="$PROJECT_DIR$/src/main/java/util/STATIC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/QUOTES.java" afterPath="$PROJECT_DIR$/src/main/java/util/QUOTES.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,28 +40,28 @@
       <file leaf-file-name="readyListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/listeners/readyListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="378">
+              <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QUOTES.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QUOTES.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/QUOTES.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="167" lean-forward="false" selection-start-line="8" selection-start-column="167" selection-end-line="8" selection-end-column="167" />
+            <state relative-caret-position="399">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cmdInit.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cmdInit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/commands/cmdInit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="24" column="92" lean-forward="false" selection-start-line="24" selection-start-column="92" selection-end-line="24" selection-end-column="92" />
+            <state relative-caret-position="408">
+              <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#411#412#0" expanded="true" />
@@ -80,6 +71,16 @@
                 <element signature="e#1423#1424#0" expanded="true" />
                 <element signature="e#1450#1451#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cmdRoll.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/commands/cmdRoll.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="152" lean-forward="false" selection-start-line="21" selection-start-column="152" selection-end-line="21" selection-end-column="152" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,16 +141,16 @@
         <option value="$PROJECT_DIR$/src/main/java/util/CONSTANTS.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/STATIC.java" />
         <option value="$PROJECT_DIR$/src/main/java/commands/cmdSup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/listeners/readyListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/QUOTES.java" />
         <option value="$PROJECT_DIR$/src/main/java/commands/cmdInit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/listeners/readyListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/QUOTES.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2114" />
-    <option name="y" value="-5" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="87" />
+    <option name="y" value="-32" />
     <option name="width" value="1841" />
     <option name="height" value="1219" />
   </component>
@@ -376,8 +377,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2569" y="-2" width="2578" height="1408" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="2578" height="1408" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -387,7 +387,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21890146" sideWeight="0.5015987" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21890146" sideWeight="0.49840128" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21890146" sideWeight="0.49840128" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -677,20 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commands/cmdRoll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="152" lean-forward="false" selection-start-line="21" selection-start-column="152" selection-end-line="21" selection-end-column="152" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#236#237#0" expanded="false" />
-            <element signature="e#264#265#0" expanded="false" />
-            <element signature="e#864#865#0" expanded="false" />
-            <element signature="e#891#892#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/listeners/userListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -767,26 +753,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/listeners/readyListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/core/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="58" column="57" lean-forward="false" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/QUOTES.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="167" lean-forward="false" selection-start-line="8" selection-start-column="167" selection-end-line="8" selection-end-column="167" />
           <folding />
         </state>
       </provider>
@@ -801,8 +771,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/commands/cmdInit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="24" column="92" lean-forward="false" selection-start-line="24" selection-start-column="92" selection-end-line="24" selection-end-column="92" />
+        <state relative-caret-position="408">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#411#412#0" expanded="true" />
@@ -812,6 +782,30 @@
             <element signature="e#1423#1424#0" expanded="true" />
             <element signature="e#1450#1451#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commands/cmdRoll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="152" lean-forward="false" selection-start-line="21" selection-start-column="152" selection-end-line="21" selection-end-column="152" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/listeners/readyListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/QUOTES.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

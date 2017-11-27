@@ -11,6 +11,8 @@ public class QUOTES {
     public static String[] ANSWERS = {"Beep Boop Boop Beep.","OK.","Error 404 'Sup' not found.","Double shift today, You?","Make it rain! :money_with_wings::money_with_wings: ",
             "You are boring..","The Bot goes skrrraaa!","I love you. :kissing_heart:"};
 
+    public static String[] LOGIN_MESSAGE = {"I'm back bitches! :sunglasses:", "Now we can party. :tada:"};
+
 
 
 
